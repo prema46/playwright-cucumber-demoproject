@@ -3,11 +3,16 @@ Feature: Product Feature
   Background:
     Given I open the "https://www.saucedemo.com/" page
 
-  # Create a datatable to validate the Price (high to low) and Price (low to high) sort options (top-right) using a Scenario Outline
-  Scenario Outline:  Validate product sort by price <sort>
-  Then I will login as 'standard_user'
-    # TODO: Sort the items by <sort>
-    # TODO: Validate all 6 items are sorted correctly by price
-  Examples:
-    # TODO: extend the datatable to paramterize this test
-    | sort |
+  Scenario:  Validate successful purchase text
+  When User login as 'standard_user'
+  Then User filter item by name 'Sauce Labs Bike Light'
+  Then Select the cart ad checkout
+  Then Fill form info as 
+  Then Validate the text 'Thank you for your order!'
+  #Then Finish and Validate successful purchase text
+    # TODO: Select the cart (top-right)
+    # TODO: Select Checkout
+    # TODO: Fill in the 'firstName', 'lastName', '90298'
+    # TODO: Select Continue
+    # TODO: Select Finish
+    # TODO: Validate the text 'Thank you for your order!'
