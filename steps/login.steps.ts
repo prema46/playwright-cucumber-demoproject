@@ -21,10 +21,3 @@ When('I will login as {string}', async (userName ) => {
   await new Login(getPage()).locked_out_user_validation(expectedError);
  })
  
- 
-
-  
-  //const errorMsg = getPage().textContent('//*[@id="login_button_container"]/div/form/div[3]/h3');
-  //const locked_out_user_error = await getPage().textContent('//*[@id="login_button_container"]/div/form/div[3]/h3');
-  //await expect(locked_out_user_error).toBe("Epic sadface: Sorry, this user has been locked out.");
- 
