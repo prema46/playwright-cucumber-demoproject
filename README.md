@@ -1,4 +1,5 @@
-# Sample Playwright Automation Test
+# Sample playwright-cucumber-demoproject Automation test
+### This code is for a demo project designed to showcase my experience. It is currently in the work in progress [WIP] stage. 
 
 ## System Requirements
 
