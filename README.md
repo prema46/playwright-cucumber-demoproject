@@ -20,7 +20,7 @@ https://nodejs.org/en/download
 
 
 ```bash
-git clone git clone https://github.com/automationExamples/Playwright-Cucumber-Exercise.git
+git clone git clone https://github.com/prema46/playwright-cucumber-demoproject.git
 npm install
 npx playwright install
 ```
