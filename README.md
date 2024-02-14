@@ -1,4 +1,4 @@
-# Sample playwright-cucumber-demoproject Automation test
+# Sample playwright-cucumber-demoproject Automation test (BDD)
 ### This code is for a demo project designed to showcase my experience. It is currently in the work in progress [WIP] stage. 
 
 ## System Requirements
